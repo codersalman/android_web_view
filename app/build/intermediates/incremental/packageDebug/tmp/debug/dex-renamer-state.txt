@@ -1,0 +1,4 @@
+#Thu Jun 03 23:34:20 IST 2021
+base.0=E\:\\Salman\\Dump_Data_salman\\Android_Source_Code_Old\\Net_Set_Source_Code\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

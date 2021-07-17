@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Demo App</string>
+
+    <!--CHANGE YOUR URL-->
+    <string name="webUrl">http://sentricuss.cloud/Customapp/</string>
+
+
+    <string name="developer_s_hub">Developer\'s Hub</string>
+    <string name="caresofts">Sentricuss</string>
+</resources>
