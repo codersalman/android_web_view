@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Demo App</string>
+    <string name="app_name">My MCQ</string>
 
     <!--CHANGE YOUR URL-->
-    <string name="webUrl">http://sentricuss.cloud/Customapp/</string>
+    <string name="webUrl">http://mymcq.jobyog.in/</string>
 
 
-    <string name="developer_s_hub">Developer\'s Hub</string>
+    <string name="developer_s_hub">Solution is Here</string>
     <string name="caresofts">Sentricuss</string>
 </resources>

@@ -1,100 +1,64 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.caresofts.netset"
+3    package="com.sentricuss.mymcqj"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="29" />
-9-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml
+8-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:6:5-67
-11-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:6:22-64
+11-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:6:5-67
+11-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:6:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:7:5-79
-12-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:7:22-76
+12-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:7:5-79
+12-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:7:22-76
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:8:5-76
-13-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:8:22-73
-14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\0411039c475e12611b30b6c17da319e0\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
-14-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\0411039c475e12611b30b6c17da319e0\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:22-65
+13-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:8:5-76
+13-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:9:5-80
+14-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:9:22-78
 15
 16    <application
-16-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:10:5-30:19
+16-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:11:5-27:15
 17        android:allowBackup="true"
-17-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:11:9-35
+17-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:12:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\da95e0dd41fd0c634661df2a0f122634\core-1.1.0\AndroidManifest.xml:24:18-86
+18-->[androidx.core:core:1.5.0] /home/salmans/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/AndroidManifest.xml:24:18-86
 19        android:icon="@mipmap/ic_launcher"
-19-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:12:9-43
+19-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:13:9-43
 20        android:label="@string/app_name"
-20-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:13:9-41
+20-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:14:9-41
 21        android:supportsRtl="true"
-21-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:14:9-35
+21-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:15:9-35
 22        android:theme="@style/AppTheme"
-22-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:15:9-40
+22-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:16:9-40
 23        android:usesCleartextTraffic="true" >
-23-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:16:9-44
-24        <activity android:name="com.caresofts.netset.Activity.MainActivity" />
-24-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:17:9-68
-24-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:17:19-56
+23-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:17:9-44
+24        <activity android:name="com.sentricuss.mymcqj.Activity.MainActivity" />
+24-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:18:9-89
+24-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:18:19-77
 25        <activity
-25-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:18:9-25:20
-26            android:name="com.caresofts.netset.Activity.SplashScreenActivity"
-26-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:18:19-84
+25-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:19:9-26:20
+26            android:name="com.sentricuss.mymcqj.Activity.SplashScreenActivity"
+26-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:19:19-85
 27            android:screenOrientation="portrait" >
-27-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:19:13-49
+27-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:20:13-49
 28            <intent-filter>
-28-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:20:13-24:29
+28-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:21:13-25:29
 29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:21:17-69
-29-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:21:25-66
+29-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:22:17-69
+29-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:22:25-66
 30
 31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:23:17-77
-31-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:23:27-74
+31-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:24:17-77
+31-->/home/salmans/Documents/Android_projects/android_web_view/app/src/main/AndroidManifest.xml:24:27-74
 32            </intent-filter>
 33        </activity>
-34
-35        <meta-data
-35-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:27:9-29:45
-36            android:name="com.google.android.gms.ads.APPLICATION_ID"
-36-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:28:13-69
-37            android:value="@string/appId" />
-37-->C:\Users\KISHAN\Desktop\Net_Set_Source_Code\app\src\main\AndroidManifest.xml:29:13-42
-38        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-39        <activity
-39-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\bef65028172ca9679882cfe6028b9b6d\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:29:9-33:64
-40            android:name="com.google.android.gms.ads.AdActivity"
-40-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\bef65028172ca9679882cfe6028b9b6d\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:30:13-65
-41            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-41-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\bef65028172ca9679882cfe6028b9b6d\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:31:13-122
-42            android:exported="false"
-42-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\bef65028172ca9679882cfe6028b9b6d\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:32:13-37
-43            android:theme="@android:style/Theme.Translucent" />
-43-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\bef65028172ca9679882cfe6028b9b6d\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:33:13-61
-44
-45        <provider
-45-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\bef65028172ca9679882cfe6028b9b6d\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:35:9-39:39
-46            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-46-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\bef65028172ca9679882cfe6028b9b6d\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:36:13-76
-47            android:authorities="com.caresofts.netset.mobileadsinitprovider"
-47-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\bef65028172ca9679882cfe6028b9b6d\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:37:13-73
-48            android:exported="false"
-48-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\bef65028172ca9679882cfe6028b9b6d\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:38:13-37
-49            android:initOrder="100" />
-49-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\bef65028172ca9679882cfe6028b9b6d\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:39:13-36
-50
-51        <meta-data
-51-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-52            android:name="com.google.android.gms.version"
-52-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-53            android:value="@integer/google_play_services_version" />
-53-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\KISHAN\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-54    </application>
-55
-56</manifest>
+34    </application>
+35
+36</manifest>
